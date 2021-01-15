@@ -1,12 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faBars } from '@fortawesome/free-solid-svg-icons';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return ( 
         <StyledHeader>
             <nav>
-                <a href="#">Home</a>
+                <a href="#"><Link to="/blog" >Home</Link></a>
                 <a href="#">Membership</a>
                 <a href="#">Style Guide</a>
             </nav>
